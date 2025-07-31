@@ -30,7 +30,7 @@ with DAG(
         
         postgres_hook.run(create_table_query)
     
-    ## https://api.nasa.gov/planetary/apod?api_key=GaeUq7v9lZr2qedKoFrd8Qdw2dMn6h6fSXLLQaNB
+    
 
     extract_apod = HttpOperator(
         task_id="extract_apod",
